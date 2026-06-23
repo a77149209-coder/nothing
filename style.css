@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }.container {
-  width: 1345px;
+  width: 1350px;
   margin: 0 auto;
 }
 .header {
@@ -37,7 +37,7 @@
 }
 /* next section, please be aware of it, its a vital warning, just dont miss this*/
 .main {
-  width: 1345px;
+  width: 1350px;
   height: 43px;
   margin: 0 auto;
 }
@@ -66,15 +66,12 @@
 /* next section, be aware of this, please do not mis this, its a vital warning!! */
 .card-main{
     margin-top: 450px;
-}
-.card-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 70px;
-}
+    gap: 31px;
+  }
 .card{
-    width: 250px;
+    width: 245px;
 height: 435px;
 gap: 16px;
 padding-top: 16px;
