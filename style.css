@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}.container {
+  width: 1345px;
+  margin: 0 auto;
+}
+.header {
+  width: 1515px;
+  height: 117px;
+  border-block-end: 5px double #f7d5ae;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+  top: 36px;
+  left: 128px;
+  margin-right: 50px;
+}
+.uls {
+  display: flex;
+  gap: 35px;
+  margin-top: 10px;
+  transition: all 0.5s linear;
+}
+.li {
+  list-style: none;
+}
+.li:hover {
+  color: red;
+  transform: scale(1.2);
+}
+/* next section, please be aware of it, its a vital warning, just dont miss this*/
+.main {
+  width: 1345px;
+  height: 43px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.line {
+  height: 11px;
+  border-top: 4px solid #f7d5ae;
+  border-bottom: 4px solid #f7d5ae;
+  width: calc(50% - 130px);
+}
+/* next section, be aware of this, please do not mis this, its a vital warning!!*/
+.emal-wrapper {
+  display: flex;
+  margin-top: 60px;
+}
+.p-container {
+  margin-top: 100px;
+  width: 440px;
+  margin-inline: 70px;
+}
+/* next section, be aware of this, please do not mis this, its a vital warning!! */
+.card-main{
+    margin-top: 450px;
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+.card{
+    width: 250px;
+height: 435px;
+gap: 16px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+border-radius: 8px;
+box-shadow: 0 0 1px black;
+}
+.h6{
+    color: #f7d5ae;
+    margin-left: 55px;
+}
+.image{
+    margin-left: 25px;
+}
+.card-p{
+    margin-left: 25px;
+}
+.btn{
+     width: 96px;
+height: 28px;
+gap: 10px;
+padding-top: 4px;
+padding-right: 12px;
+padding-bottom: 4px;
+padding-left: 12px;
+border-radius: 48px;
+border-width: 2px;
+border-color: #f7d5ae;
+color: #f7d5ae;
+margin-left: 53px;
+}
