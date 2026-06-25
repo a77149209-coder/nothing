@@ -266,20 +266,27 @@
   text-decoration-thickness: 0%;
   padding: 3px;
 }
-.e{
+.e {
   margin-right: 15px;
 }
-.none{
+.none {
   display: flex;
 }
-.non{
+.non {
   margin-right: 3px;
 }
-.space{
+.space {
   margin-top: 20px;
 }
-.social{
+.social {
   width: 300px;
-height: 50px;
-justify-content: space-between;
+  height: 50px;
+  justify-content: space-between;
+}
+.f-line {
+  width: 1350px;
+  border-bottom: #ffffff 1px solid;
+}
+.lines {
+  margin-top: 30px;
 }
